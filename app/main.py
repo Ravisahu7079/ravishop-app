@@ -18,7 +18,7 @@ def get_products():
 # Get single product
 @main.route('/products/<int:id>', methods=['GET'])
 def get_product(id):
-    product = Product.query.get_or___404(id)
+    product = Product.query.get_or_404(id)
     return jsonify(product.to_dict())
 
 # Create product
