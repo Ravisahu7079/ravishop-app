@@ -86,10 +86,11 @@ ravishop-k8s/    --> Kubernetes + Argo CD
 
 ##   Local Setup
 
-'''bash
+```bash
 # Clone repo
 git clone https://github.com/Ravisahu7079/ravishop-app.git
 cd ravishop-app
+
 
 # Setup virtual environment
 Python3 -m venv venv
@@ -98,13 +99,14 @@ pip install -r requirements.txt
 
 # Run app
 Python3 run.py
-
+```
 
 ##   Docker Setup
 
+```bash
 docker build -t ravishop:v1 .
 docker run -d -p 5000:5000 --env-file .env ravishop:v1
-
+```
 
 ##   CI/CD Pipeline
 
@@ -134,3 +136,34 @@ Ravi Sahu
 ##  License
 
 MIT License
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
