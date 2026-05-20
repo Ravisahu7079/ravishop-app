@@ -60,18 +60,18 @@ This Project demonstrates a complete DevOps lifecycle - from code to cloud.
 
 ## 🚀 Tech Stack
 
-    | Category | Technology |
-    |---|---|
-    | Backend | Python 3.12, Python Flask 3.0, SQLALchemy |
-    | Database | MySQL (AWS RDS) / SQLite (local) |
-    | Container | Docker, AWS ECR |
-    | Orchestration | Kubernetes (k3s / AWS EKS) |
-    | IaC | Terraform |
-    | Config Mgmt | Ansible |
-    | CI/CD | GitHub Actions |
-    | GitOps | Argo CD |
-    | Monitoring | Prometheus, Grafana, CloudWatch |
-    | Cloud | AWS (VPC, EC2, RDS, S3, ECR, IAM) |
+| Category | Technology |
+|---|---|
+| Backend | Python 3.12, Python Flask 3.0, SQLALchemy |
+| Database | MySQL (AWS RDS) / SQLite (local) |
+| Container | Docker, AWS ECR |
+| Orchestration | Kubernetes (k3s / AWS EKS) |
+| IaC | Terraform |
+| Config Mgmt | Ansible |
+| CI/CD | GitHub Actions |
+| GitOps | Argo CD |
+| Monitoring | Prometheus, Grafana, CloudWatch |
+| Cloud | AWS (VPC, EC2, RDS, S3, ECR, IAM) |
 
 
 ## 📁 Related Repositories
