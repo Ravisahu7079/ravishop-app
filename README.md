@@ -28,6 +28,8 @@ This Project demonstrates a complete DevOps lifecycle - from code to cloud.
 
 ## 🏗️  Architecture
 
+![Architecture](RaviShop%20Diagram.drawio.png)
+
     Developer
     ↓
     Git Push → GitHub
