@@ -74,25 +74,25 @@ This Project demonstrates a complete DevOps lifecycle - from code to cloud.
 
 ## 📁 Related Repositories
 
-    ( https://github.com/Ravisahu7079/
+     https://github.com/Ravisahu7079/
 
-    | Repo | Description |
-    |---|---|
-    | ravishop-app/    | Flask API + Docker + CI/CD |
-    | ravishop-infra/  | Terraform + Ansible |
-    | ravishop-k8s/    | Kubernetes + Argo CD |
+| Repo | Description |
+|---|---|
+| ravishop-app/    | Flask API + Docker + CI/CD |
+| ravishop-infra/  | Terraform + Ansible |
+| ravishop-k8s/    | Kubernetes + Argo CD |
 
 
 ## 🔌  API Endpoints
 
-    | Method | Endpoint | Description |
-    |---|---|---|
-    | GET | /health | Health check |
-    | GET | /products | List all products |
-    | POST | /products | Create product |
-    | GET | /products/:id | Get product |
-    | PUT | /products/:id | Update product |
-    | DELETE | /products/:id | Delete product |
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | /health | Health check |
+| GET | /products | List all products |
+| POST | /products | Create product |
+| GET | /products/:id | Get product |
+| PUT | /products/:id | Update product |
+| DELETE | /products/:id | Delete product |
 
 
 ## 🛠️  Local Setup
