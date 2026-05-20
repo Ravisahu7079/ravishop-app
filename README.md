@@ -1,6 +1,6 @@
 # ravishop-app
 
-# RaviShop -- Cloud-Native E-Commerce REST API
+# 🛒 RaviShop -- Cloud-Native E-Commerce REST API
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![Flask](https://img.shields.io/badge/Flask-3.0-green)
@@ -10,12 +10,12 @@
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
 
 
-##   Project Overview
+## 📌 Project Overview
 
 RaviShopp is a production-grade, cloud-native REST API built with Python Flask.
 This Project demonstrates a complete DevOps lifecycle - from code to cloud.
 
-##  Features
+## ✨ Features
 
 - REST API with CRUD operations
 - Containerized with Docker
@@ -26,37 +26,37 @@ This Project demonstrates a complete DevOps lifecycle - from code to cloud.
 - Monitoring with Prometheus + Grafana
 - AWS Cloud deployment ready
 
-##   Architecture
+## 🏗️  Architecture
 
     Developer
-    |
-    Git Push - GitHub
-    |
+    ↓
+    Git Push → GitHub
+    ↓
     GitHub Actions CI/CD Pipeline
-    |    Lint ( flake8 )
-    |    Unit Tests ( pytest )
-    |    Security Scan ( Trivy )
-    |    Docker Build + Push to ECR
-    |
+    |—————Lint ( flake8 )
+    |—————Unit Tests ( pytest )
+    |—————Security Scan ( Trivy )
+    |—————Docker Build + Push to ECR
+    ↓
     Argo CD ( GitOps ) watches ravishop-k8s repo
-    |
+    ↓
     Kubernetes Cluster ( k3s/AWS EKS )
-    |    Deployment ( 2 replicas )
-    |    Service ( NodePort )
-    |    Ingress
-    |
+    |—————Deployment ( 2 replicas )
+    |—————Service ( NodePort )
+    |—————Ingress
+    ↓
     AWS Infrastructure ( Terraform )
-    |    VPC ( public + private subnets )
-    |    EC2 ( t3.micro )
-    |    RDS MySQL ( db.t3.micro )
-    |
+    |—————VPC ( public + private subnets )
+    |—————EC2 ( t3.micro )
+    |—————RDS MySQL ( db.t3.micro )
+    ↓
     Monitoring
-    |    Prometheus ( metrics )
-    |    Grafana ( dashboard )
-    |    CloudWatch ( AWS alrm )
+    |—————Prometheus ( metrics )
+    |—————Grafana ( dashboard )
+    |—————CloudWatch ( AWS alrm )
 
 
-##  Tech Stack
+## 🚀 Tech Stack
 
     | Category | Technology |
     |---|---|
@@ -72,7 +72,7 @@ This Project demonstrates a complete DevOps lifecycle - from code to cloud.
     | Cloud | AWS (VPC, EC2, RDS, S3, ECR, IAM) |
 
 
-##  Related Repositories
+## 📁 Related Repositories
 
     ( https://github.com/Ravisahu7079/
 
@@ -83,7 +83,7 @@ This Project demonstrates a complete DevOps lifecycle - from code to cloud.
     | ravishop-k8s/    | Kubernetes + Argo CD |
 
 
-##   API Endpoints
+## 🔌  API Endpoints
 
     | Method | Endpoint | Description |
     |---|---|---|
@@ -95,7 +95,7 @@ This Project demonstrates a complete DevOps lifecycle - from code to cloud.
     | DELETE | /products/:id | Delete product |
 
 
-##   Local Setup
+## 🛠️  Local Setup
 
 ```bash
     # Clone repo
@@ -111,20 +111,20 @@ This Project demonstrates a complete DevOps lifecycle - from code to cloud.
     Python3 run.py
 ```
 
-##   Docker Setup
+## 🐳  Docker Setup
 
 ```bash
     docker build -t ravishop:v1 .
     docker run -d -p 5000:5000 --env-file .env ravishop:v1
     curl http://localhost:5000/health
 ```
-##  Kubernetes Deploy
+## ☸️ Kubernetes Deploy
 
 ```bash
     kubectl apply -f manifests/base/
     curl http://localhost:32099/health
 ```
-##   CI/CD Pipeline
+## ♾️  CI/CD Pipeline
 
     Code Push to main branch triggers:
 
@@ -135,21 +135,21 @@ This Project demonstrates a complete DevOps lifecycle - from code to cloud.
     5. Push to AWS ECR
 
 
-##   Monitoring
+## 📊  Monitoring
 
-- Prometheus - metrics collection from app + nodes
-- Grafana    - Node Exporter Full dashboard ( ID:1860 )
-- CloudWatch - CPU/Memory alerts on AWS
+    • Prometheus — metrics collection from app + nodes
+    • Grafana    — Node Exporter Full dashboard ( ID:1860 )
+    • CloudWatch — CPU/Memory alerts on AWS
 
 
-##   Author
+## 🧑‍💻  Author
 
     Ravi Sahu
 
-    - GitHub: @Ravisahu7079
-    - Role: DevOps/Cloud engineer
+    • GitHub: @Ravisahu7079
+    • Role: DevOps/Cloud engineer
 
-##  License
+## 📄 License
 
     MIT License
 
