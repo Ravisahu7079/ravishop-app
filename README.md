@@ -143,6 +143,25 @@ This Project demonstrates a complete DevOps lifecycle - from code to cloud.
     • Grafana    — Node Exporter Full dashboard ( ID:1860 )
     • CloudWatch — CPU/Memory alerts on AWS
 
+## 📸 Screenshots
+
+### RaviShop API Health Check ( AWS EC2 )
+![Health Check](health-check.png.png)
+### Products API with Data
+![Products](products-api.png.png)
+![Data](products-api.png(2).png)
+### EC2 Instance Running
+![EC2](ec2-running.png.png)
+### RDS MySQL Available
+![RDS](rds-available.png.png)
+### GitHub Actions CI/CD Pipeline
+![CI/CD](github-actions-green.png.png)
+### Prometheus and Grafana Monitoring Dashboard
+![Grafana](grafana-dashboard.png.png)
+![Prometheus](prometheus-targets.png.png)
+### CloudWatch Alarm
+![CloudWatch](cloudwatch-alarm.png.png)
+
 
 ## 🧑‍💻  Author
 
